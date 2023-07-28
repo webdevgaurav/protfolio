@@ -2,31 +2,23 @@ import '../css/Header.css';
 import { Link } from 'react-router-dom';
 
 import '../css/Header.css';
+import resume from "../assets/brand/resume.pdf";
 
 export default function Header() {
   return (
-    <nav className="navbar">
-      <div className="container">
 
-        <div className="navbar-brand">
-         <Link className="navbar-brand-item" to="/">Gaurav Sharma</Link>
-        </div>
+    <header className="header">
+      <Link className="logo">GS</Link>
 
-        <div className="navbar-items">
-          <ul className="navbar-list">
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
+      <nav className="navbar">
+        <Link className="navbar-item" to="/">Home</Link>
+        <Link className="navbar-item" to="/about">About</Link>
+        <Link className="navbar-item" to="/contact">Contact</Link>  
+      </nav>
 
-      </div>
-    </nav>
+      <div className="resume"><a className="resume-link" href={resume} download="resume.pdf">Download CV</a></div>
+    
+    </header>
+   
   )
 };

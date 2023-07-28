@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile h3 {
+    padding: 0 0 2rem;
+    font-weight: 700;
+}
+
+.profile p {
+    font-size: 18px;
+}
+
+.profile {
+    margin: 0 5rem;
+}
