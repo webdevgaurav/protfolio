@@ -1,19 +1,24 @@
 import '../css/Header.css';
-import { Link } from 'react-router-dom';
-
-import '../css/Header.css';
 import resume from "../assets/brand/resume.pdf";
 
 export default function Header() {
-  return (
+  window.onscroll = () => {
+    let header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 100);
+  };
 
+  return (
     <header className="header">
-      <Link className="logo">GS</Link>
+      <a className="logo" href="#">Gaurav.</a>
+
+      <div className="bx bx-menu" id="menu-icon"></div>
 
       <nav className="navbar">
-        <Link className="navbar-item" to="/">Home</Link>
-        <Link className="navbar-item" to="/about">About</Link>
-        <Link className="navbar-item" to="/contact">Contact</Link>  
+        <a className="navbar-item active" href="#home">Home</a>
+        <a className="navbar-item" href="#about">About</a>
+        <a className="navbar-item" href="#education">Education</a>
+        <a className="navbar-item" href="#skill">Skills</a>
+        <a className="navbar-item" href="#contact">Contact</a>  
       </nav>
 
       <div className="resume"><a className="resume-link" href={resume} download="resume.pdf">Download CV</a></div>

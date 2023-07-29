@@ -1,5 +1,14 @@
+import '../css/Contact.css';
+import Footer from '../components/Footer';
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <>
+    <div className="contact" id='contact'>
+      Contact
+    </div>
+
+    <Footer />
+    </>
   )
 }

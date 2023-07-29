@@ -1,5 +1,9 @@
+import '../css/About.css';
+
 export default function About() {
   return (
-    <div>About</div>
+    <div className="about" id="about">
+      About
+    </div>
   )
 }
