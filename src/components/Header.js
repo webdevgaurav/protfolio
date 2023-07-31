@@ -16,8 +16,8 @@ export default function Header() {
       <nav className="navbar">
         <a className="navbar-item active" href="#home">Home</a>
         <a className="navbar-item" href="#about">About</a>
-        <a className="navbar-item" href="#education">Education</a>
-        <a className="navbar-item" href="#skill">Skills</a>
+        <a className="navbar-item" href="#project">Project</a>
+        <a className="navbar-item" href="#skill">Skill</a>
         <a className="navbar-item" href="#contact">Contact</a>  
       </nav>
 

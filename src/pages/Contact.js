@@ -5,7 +5,22 @@ export default function Contact() {
   return (
     <>
     <div className="contact" id='contact'>
-      Contact
+      <form action="submit" className="contact-info">
+        <label htmlFor="name"></label>
+        <input type="text" name='name'/>
+
+        <label htmlFor="email"></label>
+        <input type="email" name='email'/>
+
+        <label htmlFor="phone" id='phone'></label>
+        <input type="tel" name='phone'/>
+
+        <label htmlFor="name"></label>
+        <input type="text" name='name'/>
+
+        <label htmlFor="name"></label>
+        <input type="text" name='name'/>
+      </form>
     </div>
 
     <Footer />

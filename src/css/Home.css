@@ -30,6 +30,24 @@
     -webkit-text-stroke: .7px var(--main-color);
 }
 
+.home-content .job-text-animate h3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-color);
+    border-left: 2px solid var(--main-color);
+    animation: typing 1.5s steps(6) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
 .home-content p {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
