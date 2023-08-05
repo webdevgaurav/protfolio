@@ -71,3 +71,15 @@
 .contact form .btn-box.btns .btn {
     cursor: pointer;
 }
+
+.contact .success-message {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    display: none;
+}
+
+.contact .success-message.show {
+    display: block;
+}
