@@ -8,8 +8,17 @@
     background-position: center;
 }
 
+.home .home-content .home-background {
+    display: none;
+}
+
+.home .home-content .dev-name {
+    color: var(--yellow-text);
+}
+
 .home-content {
     max-width: 60rem;
+    z-index: 99;
 }
 
 .home-content h1 {
@@ -160,3 +169,5 @@
     background: var(--bg-color);
     opacity: .8;
 }
+
+
