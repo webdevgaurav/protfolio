@@ -13,16 +13,11 @@ export default function About() {
 
       <div className="about-content">
        <h3>Software Engineer!</h3>
-        <p>A highly motivated and competent Software Engineer with experience in developing
-          web applications. Proficient in coding, debugging, testing, and deploying web
-          applications using modern frameworks and libraries. Skilled in developing user-friendly
-          interfaces and mobile-responsive web designs. Dedicated to absorbing and leveraging
-          new techniques and skills. Ready to positively impact all new and ongoing projects
-          through diligent pursuit of exceptional final products.
+        <p>Aspiring to work with an organization where I can utilize my skills and capabilities to carve a niche for myself and effectively deliver towards contributing to the organization's objectives and also enhance my personal growth through continual upgrading of knowledge. 
         </p>
 
         <div className="btn-box btns">
-          <a href="#" className='btn'>Read More</a>
+          <a href="#project" className='btn'>Read More</a>
         </div>
 
       </div>

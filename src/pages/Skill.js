@@ -28,6 +28,11 @@ export default function Skill() {
               </div>
 
               <div className="progress">
+                <h3>NodeJS <span>65%</span></h3>
+                <div className="bar"><span style={{width: '65%'}}></span></div>
+              </div>
+
+              <div className="progress">
                 <h3>PHP <span>65%</span></h3>
                 <div className="bar"><span style={{width: '65%'}}></span></div>
               </div>
@@ -57,7 +62,7 @@ export default function Skill() {
               </div>
 
               <div className="progress">
-                <h3>Database <span>65%</span></h3>
+                <h3>Database Management<span>65%</span></h3>
                 <div className="bar"><span style={{width: '65%'}}></span></div>
               </div>
 
